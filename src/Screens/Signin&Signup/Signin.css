@@ -1,0 +1,24 @@
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.signup-form-layout {
+    width: 40%;
+    height: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+}
+
+.signup-heading {
+    margin-bottom: 15%;
+
+}
