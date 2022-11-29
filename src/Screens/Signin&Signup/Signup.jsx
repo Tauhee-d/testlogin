@@ -122,7 +122,7 @@ const Signup = () => {
             errors.password = "Password and Confirm Password doesn't match!"
 
         }
-        localStorage.setItem("userDetails", JSON.stringify([...data, formValues]))
+        // localStorage.setItem("userDetails", JSON.stringify([...data, formValues]))
         return errors
     }
 
