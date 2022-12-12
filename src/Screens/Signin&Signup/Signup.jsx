@@ -158,7 +158,7 @@ const Signup = () => {
 
 
                     <button type="submit" className="btn btn-primary col-lg-4">Signup</button>
-                    <p className="mt-3">Already Have an Account <span><NavLink to="/Signin">SignIn</NavLink></span></p>
+                    <p className="mt-3">Already Have an Account <span><NavLink to="/">SignIn</NavLink></span></p>
                     {/* {Object.keys(formErrors).length === 0 && isSubmit ? (<div className="ui message success">Signed in successfull</div>) : (<div className="ui message error"> Something went wrong try Again </div>)} */}
                 </form>
 

@@ -7,7 +7,7 @@ import { Routes, Switch, Route } from "react-router-dom";
 function App() {
   return (
     <Routes>
-      <Route path="/Signin" element={<Signin />} />
+      <Route path="/" element={<Signin />} />
       <Route path="/Signup" element={<Signup />} />
       <Route path="/Home" element={<Home />} />
     </Routes>
